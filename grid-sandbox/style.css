@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+h1 {
+    margin: 25px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    margin-top: 25px;
+    font-weight: bold;
+}
+
 #grid-container {
     display: grid;
     gap: 25px;
@@ -11,7 +22,8 @@
     grid-column: 1/2;
     grid-row: 1/4;
     font-family: 'Roboto', sans-serif;
-    background-color: red;
+    background-color: RGB(255, 120, 120);
+    border: 10px solid red;
     text-align: center;
 }
 
@@ -19,7 +31,8 @@
     grid-column: 2/4;
     grid-row: 1/4;
     font-family: 'Roboto', sans-serif;
-    background-color: blue;
+    background-color: RGB(0, 200, 255);
+    border: 10px solid blue;
     text-align: center;
 }
 
@@ -27,7 +40,8 @@
     grid-column: 4/6;
     grid-row: 1/6;
     font-family: 'Roboto', sans-serif;
-    background-color: yellow;
+    background-color: RGB(255, 255, 120);
+    border: 10px solid yellow;
     text-align: center;
 }
 
@@ -35,6 +49,7 @@
     grid-column: 1/4;
     grid-row: 4/6;
     font-family: 'Roboto', sans-serif;
-    background-color: purple;
+    background-color: RGB(200, 0, 255);
+    border: 10px solid purple;
     text-align: center;
 }
