@@ -8,13 +8,54 @@ h1 {
 h2 {
   margin-top: 25px;
   font-weight: bold;
+  grid-row: 1/2;
+}
+
+p {
+  grid-row: 2/3;
+}
+
+#img-1 {
+  border: 3px dashed red;
+  grid-row: 3/4;
+  margin-right: auto;
+  margin-left: auto;
+  height: 200px;
+  width: 200px;
+}
+
+#img-2 {
+  border: 3px dashed blue;
+  grid-row: 3/4;
+  margin-right: auto;
+  margin-left: auto;
+  height: 200px;
+  width: 200px;
+}
+
+#img-3 {
+  border: 3px dashed RGB(200, 200, 0);
+  grid-row: 3/4;
+  margin-right: auto;
+  margin-left: auto;
+  height: 200px;
+  width: 200px;
+}
+
+#img-4 {
+  border: 3px dashed purple;
+  grid-row: 3/4;
+  margin-right: auto;
+  margin-left: auto;
+  height: 200px;
+  width: 200px;
 }
 
 #grid-container {
   display: grid;
   gap: 25px;
   grid-template-columns: auto auto auto auto auto;
-  grid-template-rows: 100px 100px 100px 100px 200px;
+  grid-template-rows: 100px 100px 100px 100px 300px;
 }
 
 #grid-item-1 {
@@ -24,6 +65,10 @@ h2 {
   border: 10px solid red;
   font-family: "Roboto", sans-serif;
   text-align: center;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 15% 20% 65%;
+  border-radius: 5px;
 }
 
 #grid-item-2 {
@@ -33,15 +78,23 @@ h2 {
   border: 10px solid blue;
   font-family: "Roboto", sans-serif;
   text-align: center;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 15% 20% 65%;
+  border-radius: 5px;
 }
 
 #grid-item-3 {
   grid-column: 4/6;
   grid-row: 1/6;
   background-color: RGB(255, 255, 120);
-  border: 10px solid yellow;
+  border: 10px solid RGB(200, 200, 0);
   font-family: "Roboto", sans-serif;
   text-align: center;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 15% 20% 65%;
+  border-radius: 5px;
 }
 
 #grid-item-4 {
@@ -51,6 +104,10 @@ h2 {
   border: 10px solid purple;
   font-family: "Roboto", sans-serif;
   text-align: center;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 15% 20% 65%;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
