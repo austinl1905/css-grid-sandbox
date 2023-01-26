@@ -42,22 +42,22 @@ p {
 }
 
 #img-1 {
-    border: 3px dashed $item-1-color;
+    border: 3px solid $item-1-color;
     @include default-image-format;
 }
 
 #img-2 {
-    border: 3px dashed $item-2-color;
+    border: 3px solid $item-2-color;
     @include default-image-format;
 }
 
 #img-3 {
-    border: 3px dashed $item-3-color;
+    border: 3px solid $item-3-color;
     @include default-image-format;
 }
 
 #img-4 {
-    border: 3px dashed $item-4-color;
+    border: 3px solid $item-4-color;
     @include default-image-format;
 }
 

@@ -16,7 +16,7 @@ p {
 }
 
 #img-1 {
-  border: 3px dashed red;
+  border: 3px solid red;
   grid-row: 3/4;
   margin-right: auto;
   margin-left: auto;
@@ -25,7 +25,7 @@ p {
 }
 
 #img-2 {
-  border: 3px dashed blue;
+  border: 3px solid blue;
   grid-row: 3/4;
   margin-right: auto;
   margin-left: auto;
@@ -34,7 +34,7 @@ p {
 }
 
 #img-3 {
-  border: 3px dashed RGB(200, 200, 0);
+  border: 3px solid RGB(200, 200, 0);
   grid-row: 3/4;
   margin-right: auto;
   margin-left: auto;
@@ -43,7 +43,7 @@ p {
 }
 
 #img-4 {
-  border: 3px dashed purple;
+  border: 3px solid purple;
   grid-row: 3/4;
   margin-right: auto;
   margin-left: auto;
